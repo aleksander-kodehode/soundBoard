@@ -1,0 +1,44 @@
+body {
+    background: rgb(67, 15, 112);
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 7rem 0;
+    font-size: 4rem;
+    color: #aa7ec3;
+}
+.container {
+    display: flex;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.button-wrapper{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #aa7ec3;
+}
+.btn-3d {
+    display: inline-block;
+    width: 12rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    text-decoration: none;
+  }
+  .btn-3d:active {
+    transform: translate3d(0,9px,0);
+  }
+  .btn-3d.red {
+    background-color: #ae3ce7;
+    box-shadow: 0 0 0 1px #5a065d inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 8px 0 0 #5c0c77, 0 8px 0 1px rgba(0,0,0,0.4), 0 8px 8px 1px rgba(0,0,0,0.5);
+  }
+  .btn-3d.red:active {
+    box-shadow: 0 0 0 1px #5a065d inset, 0 0 0 2px rgba(255,255,255,0.15) inset, 0 0 0 1px rgba(0,0,0,0.4);
+  }
